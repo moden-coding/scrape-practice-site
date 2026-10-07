@@ -1,0 +1,19 @@
+body { font-family: Verdana, sans-serif; max-width: 960px; margin: 0 auto; padding: 0 16px;
+       background: #f3f7f1; color: #24331f; }
+a { color: #2f6b3a; }
+header, footer { padding: 12px 0; border-bottom: 2px solid #b9d0b0; }
+footer { border-top: 2px solid #b9d0b0; border-bottom: none; margin-top: 24px; font-size: 0.9em; }
+nav a { margin-right: 14px; }
+.category-nav a { font-weight: bold; }
+.pets { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 14px; }
+.pet-card { background: #fff; border: 1px solid #b9d0b0; border-radius: 10px; padding: 12px 14px; }
+.pet-card h2 { font-size: 1.2em; margin: 0 0 6px; }
+.pet-card p { margin: 3px 0; }
+.fee { font-weight: bold; }
+.meet-me { display: inline-block; margin-top: 8px; padding: 4px 10px; background: #2f6b3a;
+           color: #fff; border-radius: 14px; text-decoration: none; }
+.pagination { margin: 24px 0; text-align: center; }
+.pagination a { display: inline-block; padding: 4px 9px; margin: 2px; border: 1px solid #b9d0b0;
+                border-radius: 4px; text-decoration: none; }
+.pagination a.current { background: #2f6b3a; color: #fff; }
+.pet-detail { background: #fff; border: 1px solid #b9d0b0; border-radius: 10px; padding: 16px 20px; }
