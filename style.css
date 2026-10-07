@@ -1,0 +1,16 @@
+body { font-family: Georgia, serif; max-width: 960px; margin: 0 auto; padding: 0 16px;
+       background: #fbf6ee; color: #3b2a1a; }
+a { color: #8a3b12; }
+header, footer { padding: 12px 0; border-bottom: 2px solid #d8c3a5; }
+footer { border-top: 2px solid #d8c3a5; border-bottom: none; margin-top: 24px; font-size: 0.9em; }
+nav a { margin-right: 14px; }
+.catalog { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
+.game-card { background: #fff; border: 1px solid #d8c3a5; border-radius: 8px; padding: 12px 14px; }
+.game-card h2 { font-size: 1.15em; margin: 0 0 6px; }
+.game-card p { margin: 3px 0; }
+.price { font-weight: bold; }
+.pagination { margin: 24px 0; text-align: center; }
+.pagination a { display: inline-block; padding: 4px 9px; margin: 2px; border: 1px solid #d8c3a5;
+                border-radius: 4px; text-decoration: none; }
+.pagination a.current { background: #8a3b12; color: #fff; }
+.game-detail { background: #fff; border: 1px solid #d8c3a5; border-radius: 8px; padding: 16px 20px; }
